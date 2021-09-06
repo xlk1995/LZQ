@@ -9,7 +9,7 @@ body {
   align-items: center;
   height: 100vh;
   background: url('img/lzq1.jpeg') no-repeat center;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 
 p {
