@@ -10,12 +10,12 @@
 </head>
 
 <body>
-  <p>点击下方！</p>
-  <p><button onclick="clickMe()">点我！</button></p>
+  <p>点我！！！！！！！！！！！</p>
 </body>
   <script>
-        function clickMe() {
-            var p = document.querySelector('p')
+        let p = document.querySelector('p')
+        p.addEventListener('click',()=>{
+           
             var msg = "有想我吗？\n有，请点击确定\n没有请点击取消";
             if (confirm(msg) == true) {
                 p.innerHTML = '我也想你了！'
@@ -24,7 +24,7 @@
                 p.innerHTML = '系统出错，请重新进入！'
                 return false
             }
-        }
+        })
     </script>
 </html>
  
