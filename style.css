@@ -62,6 +62,13 @@ p:hover {
 }
 
 .times {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 200px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
