@@ -5,14 +5,16 @@
 
 body {
   display: flex;
-  justify-content: center;
+
+  /* justify-content: center; */
   align-items: center;
+  flex-direction: column;
   height: 100vh;
   background: url('img/LZQ4.jpg') no-repeat center;
   background-size: 100% 100%;
 }
 
-p {
+* {
   font-size: 20px;
   font-weight: 700;
   font-family: '思源黑体 CN';
@@ -57,4 +59,9 @@ p:hover {
   100% {
     background-position: 200%;
   }
+}
+
+.times {
+  margin-top: 30px;
+  margin-bottom: 200px;
 }
