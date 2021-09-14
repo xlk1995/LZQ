@@ -12,11 +12,12 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background: url('img/LZQ5.jpg') no-repeat center;
+  background: url('img/LZQ.jpeg') no-repeat center;
   background-size: 100% 100%;
 }
 
-* {
+div,
+p {
   font-size: 20px;
   font-weight: 700;
   font-family: '思源黑体 CN';
