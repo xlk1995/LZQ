@@ -8,9 +8,9 @@ body {
   padding-top: 50px;
   box-sizing: border-box;
 
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  /* flex-direction: column; */
   height: 100vh;
   background: url('img/LZQ.jpeg') no-repeat center;
   background-size: 100% 100%;
@@ -70,8 +70,8 @@ p:hover {
 
 .content {
   /* border: 1px solid red; */
-  flex: 1;
+  /* flex: 1;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
