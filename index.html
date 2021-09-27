@@ -1,50 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>L</title>
-  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>纯css气泡背景</title>
+  <link rel="stylesheet" href="./index.css">
 </head>
-
 <body>
-
-<!--   <p class="content">想在 &nbsp;<span class="times"></span>&nbsp; 和你一起看星星！</p> -->
-  <p>林芷晴，要开心！！</p>
+  <div class="bruce">
+    <ul class="bubble-bgwall">
+      <li>林</li>
+      <li>芷</li>
+      <li>晴</li>
+      <li>多</li>
+      <li>喝</li>
+      <li>水</li>
+      <li>水</li>
+      <li>水</li>
+      <li>水</li>
+      <li>水</li>
+    </ul>
+  </div>
 </body>
-<script>
-  //         let p = document.querySelector('p')
-  //         p.addEventListener('click',()=>{
-
-  //             var msg = "1111111\n2222222222\n3333333333";
-  //             if (confirm(msg) == true) {
-  //                 p.innerHTML = '444444444！'
-  //                 return tru e;
-  //             } else {
-  //                 p.innerHTML = '555555555！'
-  //                 return false
-  //             }
-  //         })
-
-
-  let times = document.querySelector('.times')
-
-  function addZore(val) {
-    return val < 10 ? '0' + val : val
-  }
-
-  function getTime() {
-    let data = new Date()
-    let h = addZore(data.getHours())
-    let m = addZore(data.getMinutes())
-    let s = addZore(data.getSeconds())
-    times.innerHTML = `${h}:${m}:${s}`
-  }
-  setInterval(() => {
-    getTime()
-  }, 1000)
-</script>
-
 </html>
